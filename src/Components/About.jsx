@@ -85,7 +85,7 @@ const About = () => {
           viewport={{ once: true }}
           className="text-5xl font-extrabold text-center mb-6"
         >
-          🚀 My Expertise
+          My Expertise
         </motion.h2>
 
         <motion.p
