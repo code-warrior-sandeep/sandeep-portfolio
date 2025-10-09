@@ -95,9 +95,9 @@ const About = () => {
           viewport={{ once: true }}
           className="text-lg text-center leading-8 max-w-3xl mx-auto mb-16 font-light text-gray-600 dark:text-gray-400"
         >
-          I'm a <strong>Full-Stack Developer</strong> 💼 passionate about
-          building complete web solutions that balance <strong>design 🎨</strong> and{" "}
-          <strong>functionality ⚙️</strong>.
+          I'm a <strong>Full-Stack Developer</strong> passionate about
+          building complete web solutions that balance <strong>design</strong> and{" "}
+          <strong>functionality</strong>.
         </motion.p>
 
         {/* 🧭 Timeline Container (Desktop) */}
