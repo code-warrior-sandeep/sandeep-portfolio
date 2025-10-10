@@ -1,5 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
+import { Link } from "react-router-dom";
 
 const Hero = () => {
   return (
@@ -29,18 +30,19 @@ const Hero = () => {
 
 
         <div className="mt-6 flex gap-4 justify-center md:justify-start">
-          <a
-            href="/projects"
-            className="px-6 py-3 bg-blue-600 text-white rounded-md hover:bg-blue-700 transition-all duration-300 shadow-md hover:shadow-lg"
-          >
-            🚀 View Projects
-          </a>
-          <a
-            href="/contact"
-            className="px-6 py-3 border border-blue-600 text-blue-600 rounded-md hover:bg-blue-600 hover:text-white transition-all duration-300 shadow-md hover:shadow-lg"
-          >
-            📬 Contact Me
-          </a>
+          <Link
+  to="/projects"
+  className="px-6 py-3 bg-blue-600 text-white rounded-md hover:bg-blue-700 transition-all duration-300 shadow-md hover:shadow-lg"
+>
+  🚀 View Projects
+</Link>
+
+         <Link
+  to="/contact"
+  className="px-6 py-3 border border-blue-600 text-blue-600 rounded-md hover:bg-blue-600 hover:text-white transition-all duration-300 shadow-md hover:shadow-lg"
+>
+  📬 Contact Me
+</Link>
         </div>
       </motion.div>
 

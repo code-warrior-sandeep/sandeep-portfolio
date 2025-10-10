@@ -116,12 +116,6 @@ const Project = () => {
         transition={{ duration: 0.6, delay: 0.2 }}
         viewport={{ once: true }}
       >
-        <a
-          href="/projects"
-          className="inline-block bg-blue-600 text-white px-8 py-3 rounded-full text-lg font-semibold hover:bg-blue-700 transition-all shadow-lg hover:shadow-xl"
-        >
-          See More Work →
-        </a>
       </motion.div>
     </section>
   );

@@ -11,7 +11,7 @@ const Footer = () => {
         </p>
         <div className="mt-4 md:mt-0 flex gap-4">
           <a href="https://github.com/code-warrior-sandeep" target="_blank" rel="noopener noreferrer" className="hover:text-blue-600 dark:hover:text-blue-400">🧑‍💻 GitHub</a>
-          <a href="https://www.linkedin.com/in/sandeep-singh-unique" target="_blank" rel="noopener noreferrer" className="hover:text-blue-600 dark:hover:text-blue-400">💼 LinkedIn</a>
+          <a href="https://www.linkedin.com/in/code-warrior-sandeep" target="_blank" rel="noopener noreferrer" className="hover:text-blue-600 dark:hover:text-blue-400">💼 LinkedIn</a>
           <a href="mailto:mrsandeepsinghunique@gmail.com" className="hover:text-blue-600 dark:hover:text-blue-400">📧 Email</a>
         </div>
       </div>
